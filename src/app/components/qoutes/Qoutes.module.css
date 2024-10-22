@@ -1,0 +1,43 @@
+
+.wrapper {
+    min-height: 100vh;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    border-radius: 10px;
+    background-color: rgba(249, 210, 223, 0.5);
+  }
+  
+  
+  @media (max-width: 600px) {
+    .wrapper {
+      min-height: 70vh;
+      padding-top: 100px; 
+    }
+  }
+
+  .badge{
+    margin-right: 3%;
+  }
+
+  .title{
+    margin-left: 3%;
+  }
+
+.text{
+  margin-top: 2%;
+}
+
+
+.highlight {
+  background-color: rgba(234,119,155, 0.5);
+  border-radius: 10px;
+}
+
+
+  .card{
+    margin-top: 10%;
+  }
+.section {
+  padding-bottom: 20%;
+  
+  border-bottom: solid 1px var(--mantine-color-gray-4);}

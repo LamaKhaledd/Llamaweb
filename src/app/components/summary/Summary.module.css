@@ -1,0 +1,38 @@
+.title {
+  text-align: center;
+  font-weight: 800;
+}
+
+.wrapper {
+  min-height: 100vh;
+  padding-top: 90px;
+  margin-bottom: 15%;
+}
+
+.description {
+  text-align: center;
+}
+
+
+@media (max-width: 600px) {
+  .wrapper {
+    min-height: 70vh;
+    padding-top: 100px;
+  }
+}
+
+
+.name {
+  font-weight: 800; 
+  display: inline-block; 
+  background: linear-gradient(90deg, rgba(231,84,135,255), black); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+  color: transparent; 
+}
+
+
+.exclamation {
+  display: inline; 
+}
+

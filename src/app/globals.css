@@ -40,3 +40,12 @@ a {
     color-scheme: dark;
   }
 }
+
+
+/* globals.css */
+body {
+  margin: 0;
+  font-family: var(--font-geist-sans);
+  background-color: #f8f9fa; /* Light background for contrast */
+}
+
