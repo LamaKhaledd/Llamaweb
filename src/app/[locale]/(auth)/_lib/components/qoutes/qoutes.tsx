@@ -1,9 +1,9 @@
 import { Container, Title, Text, SimpleGrid } from "@mantine/core";
-import { cardsData } from "./LlamaCardsData";
-import { LlamaCard } from "./LlamaCard";
-import classes from "./Qoutes.module.css";
+import { cardsData } from "./cards-data";
+import { LlamaCard } from "./cards";
+import classes from "./qoutes.module.css";
 
-export function Qoutes() {
+const Qoutes = () => {
     const myQoutes = cardsData.map((item) => {
         return(
         <LlamaCard key={item?.title} image={item?.image} title={item?.title} description={item?.description} url={item?.url}/>
@@ -20,16 +20,12 @@ export function Qoutes() {
           Llama Wisdom: Quotes to Inspire and Delight
           </Text>
         </Title>
-  
-        <Text color="dimmet" className={classes.text}>
-          <b>Welcome to our collection of llama-inspired quotes!</b> where wisdom meets whimsy! Llamas are not only adorable creatures; they also remind us of the importance of staying calm, embracing our uniqueness, and finding joy in life’s little moments. Explore these delightful sayings that celebrate the charm and character of llamas, and let them inspire you to navigate your own adventures with a little more llama spirit!
+        <Text c="dimmet" className={classes.text} fw="bold">
+          Welcome to our collection of llama-inspired quotes!  </Text><Text c="dimmet" className={classes.text}>wisdom meets whimsy! Llamas are not only adorable creatures; they also remind us of the importance of staying calm, embracing our uniqueness, and finding joy in life’s little moments. Explore these delightful sayings that celebrate the charm and character of llamas, and let them inspire you to navigate your own adventures with a little more llama spirit!
         </Text>
-
-
         <SimpleGrid cols={3}>{myQoutes}</SimpleGrid>
-
-
-
     </Container>
     );
 }
+
+export default Qoutes;

@@ -1,19 +1,11 @@
-import { Button, Container } from '@mantine/core';
-import { Summary } from './components/summary/Summary';
-import { AboutMe } from './components/about.me/AboutMe';
-import { Details } from './components/details/Details';
-import { Qoutes } from './components/qoutes/Qoutes';
-import { Contact } from './components/contact/Contact';
-import { HeaderSimple } from './components/header/MyHeader';
+import {Container} from '@mantine/core'; 
+
+import {BasicAppShell } from './[locale]/(auth)/_lib/components/appshell/appshell';
+
 function Home() {
   return (
     <Container>
-      <HeaderSimple />
-      <Summary />
-      <AboutMe />
-      <Details />
-      <Qoutes />
-      <Contact />
+      <BasicAppShell />
     </Container>
     
   );
