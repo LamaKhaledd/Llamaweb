@@ -45,7 +45,6 @@ const Button: React.FC<CoreButtonProps> = ({
           }
           break;
         case "link":
-          // handle link type if needed
           break;
         default:
           break;
