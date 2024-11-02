@@ -40,7 +40,6 @@
 * <strong> Next.js</strong> - A React framework for server-side rendering and static site generation.
 * <strong> Mantine </strong>- A modern component library for styling and design.
 <br>
-<p align="right">(<a href="#readme-top">⬆️ Back to top</a>)</p>
 <br>
 
 
@@ -89,12 +88,12 @@
 <br>
 
 <div align="center">
-  <img src="Pic4.PNG" alt="Description of the image">
+  <img src="Pic5.PNG" alt="Description of the image">
 </div>
 <br>
 
 <div align="center">
-  <img src="Pic5.PNG" alt="Description of the image">
+  <img src="Pic4.PNG" alt="Description of the image">
 </div>
 <br>
 
@@ -111,7 +110,7 @@
 <br>
 
 
-<strong>Here, a simple form was added just to test the ability to configure one:</strong>
+<strong>Here, a simple form was added just to test the ability of configuring one:</strong>
 
 <div align="center">
   <img src="Pic10.PNG" alt="Description of the image">
