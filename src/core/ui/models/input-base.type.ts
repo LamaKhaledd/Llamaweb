@@ -16,10 +16,21 @@ export type InputSchema =
   | ISelectInput
   | ICheckboxInput;
 
+export type InputType =
+  | "text"
+  | "password"
+  | "textarea"
+  | "checkbox"
+  | "radio"
+  | "select"
+  | "switch";
 
-export type InputType=
- "text" | "password" | "textarea" | "checkbox" | "radio" | "select" | "switch";
-
-
- export type ValuesTypes= string | number | boolean |string[] | number[] | Date | Date[] | [number, number];
- 
+export type ValuesTypes =
+  | string
+  | number
+  | boolean
+  | string[]
+  | number[]
+  | Date
+  | Date[]
+  | [number, number];

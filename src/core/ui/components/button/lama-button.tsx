@@ -3,24 +3,24 @@ import { Button } from "@mantine/core";
 import { IButton } from "./models/lama-button.interface";
 
 const LamaButton = ({
-  schema = {},  
+  schema = {},
   children,
   onClick,
 }: {
-  schema?: IButton; 
+  schema?: IButton;
   children: React.ReactNode;
   onClick: () => void;
 }): React.ReactNode => {
   const {
-    label = "",            
-    type = "button",      
-    color = "pink",       
-    size = "compact-md",   
-    variant = "filled",    
+    label = "",
+    type = "button",
+    color = "pink",
+    size = "compact-md",
+    variant = "filled",
     rightSection,
     leftSection,
     fullWidth = false,
-  } = schema || {};      
+  } = schema || {};
 
   return (
     <Button
@@ -31,7 +31,7 @@ const LamaButton = ({
       rightSection={rightSection}
       leftSection={leftSection}
       onClick={onClick}
-      fullWidth={fullWidth} 
+      fullWidth={fullWidth}
     >
       {label || children}
     </Button>

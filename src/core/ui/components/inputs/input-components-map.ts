@@ -1,4 +1,3 @@
-
 import { INPUT_TYPE } from "../../constants/input-renderer-constants";
 import { InputComponentProps } from "./input-component-props";
 import LamaCheckboxInput from "./lama-checkbox/lama-checkbox";

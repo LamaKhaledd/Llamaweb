@@ -26,7 +26,10 @@ const LamaSelectInput = ({
     label,
     size,
     color,
-    data: options.map((option) => ({ value: option.value, label: option.label })),
+    data: options.map((option) => ({
+      value: option.value,
+      label: option.label,
+    })),
     placeholder,
     searchable,
     clearable,

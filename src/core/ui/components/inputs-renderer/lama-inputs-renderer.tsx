@@ -15,13 +15,12 @@ interface InputRendererProps {
   value?: any;
 }
 
-const InputRenderer: React.FC<InputRendererProps> = ({
-  schema,
-  value,
-}) => {
+const InputRenderer: React.FC<InputRendererProps> = ({ schema, value }) => {
   const { name, ...rest } = schema;
   const { control } = useFormContext();
-  const Component = getInputComponent(schema.inputType) as React.ComponentType<InputComponentProps>;
+  const Component = getInputComponent(
+    schema.inputType
+  ) as React.ComponentType<InputComponentProps>;
 
   const handleInputChange = <T extends string | string[] | number | undefined>({
     event,

@@ -34,8 +34,8 @@ const LlamaTabs = () => {
         </Text>
         <LlamaLists type="mountainHelpers" />
         <Text c="gray" mt="md">
-          Llamas continue to be valuable partners in both traditional and
-          modern uses across the globe.
+          Llamas continue to be valuable partners in both traditional and modern
+          uses across the globe.
         </Text>
       </TabsPanel>
 
@@ -44,8 +44,8 @@ const LlamaTabs = () => {
         <Text fs="italic" mt="md">
           Llama wool is valued for its softness and hypoallergenic qualities.
           It’s spun into yarn for clothing and textiles, with natural colors
-          that range from white to deep browns and blacks, making it a
-          versatile material for artisans.
+          that range from white to deep browns and blacks, making it a versatile
+          material for artisans.
         </Text>
         <LlamaLists type="wool" />
         <Text c="gray" mt="md">
@@ -63,9 +63,9 @@ const LlamaTabs = () => {
           themselves by spitting if threatened. Their intelligence and calm
           demeanor make them highly trainable, often used in farming as guard
           animals to protect livestock, such as sheep, from predators like
-          coyotes. Llamas also play a role in eco-tourism, where they
-          accompany hikers and trekkers on trails, carrying supplies while
-          offering companionship.
+          coyotes. Llamas also play a role in eco-tourism, where they accompany
+          hikers and trekkers on trails, carrying supplies while offering
+          companionship.
         </Text>
       </TabsPanel>
     </Tabs>

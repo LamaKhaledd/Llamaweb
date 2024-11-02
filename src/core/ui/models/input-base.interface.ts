@@ -14,8 +14,5 @@ export interface BaseInputSchema {
 export interface ILamaOption {
   id: string;
   value: string;
-  label: string
+  label: string;
 }
-
-
-
