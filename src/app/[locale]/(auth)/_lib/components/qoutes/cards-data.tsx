@@ -10,7 +10,7 @@ export const cardsData = [
     { 
         image: "https://i.pinimg.com/564x/15/6c/b3/156cb32b9ea8515cbb8d2a6cf196fb4e.jpg", 
         title: "Llamas and Life", 
-        description: "Life is better with a llama by your side 🦙❤️❤️.", 
+        description: "They say life is better with a llama by your side 🦙❤️.", 
         url: "https://example.com" 
     },
 

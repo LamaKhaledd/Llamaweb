@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, ThemeIcon, ListItem } from "@mantine/core";
+import { List, ThemeIcon, ListItem, Text } from "@mantine/core";
 import { IconMusicCheck } from '@tabler/icons-react';
 
 interface LlamaListsProps {
@@ -9,17 +9,29 @@ interface LlamaListsProps {
 const LlamaLists: React.FC<LlamaListsProps> = ({ type }) => {
     const mountainHelpersList = (
         <>
-            <ListItem><b>Llamas</b> tell their companions off by spitting at them</ListItem>
-            <ListItem><b>Llamas</b> language is humming</ListItem>
-            <ListItem><b>Llamas</b> are not only sociable and soft but also extremely resilient!</ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> tell their companions off by spitting at them
+            </ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> language is humming
+            </ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> are not only sociable and soft but also extremely resilient!
+            </ListItem>
         </>
     );
 
     const woolList = (
         <>
-            <ListItem><b>Llamas</b> love basking in the sun during chilly mornings</ListItem>
-            <ListItem><b>Llamas</b> can recognize their favorite snacks from a distance</ListItem>
-            <ListItem><b>Llamas</b> have an incredible sense of direction, rarely getting lost</ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> love basking in the sun during chilly mornings
+            </ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> can recognize their favorite snacks from a distance
+            </ListItem>
+            <ListItem>
+                <Text fw={500}>Llamas</Text> have an incredible sense of direction, rarely getting lost
+            </ListItem>
         </>
     );
 

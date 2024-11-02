@@ -1,5 +1,5 @@
 import { Tabs, TabsList, TabsTab, TabsPanel, Title, Text } from "@mantine/core";
-import LlamaLists from "./llama-info-lists"; // Import the LlamaLists component
+import LlamaLists from "./llama-info-lists";
 import classes from "./insights.module.css";
 
 const LlamaTabs = () => {

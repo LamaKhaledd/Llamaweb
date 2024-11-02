@@ -1,7 +1,15 @@
-
-import Button from '../../../../../../core/ui/components/button/button';
-import { Card, CardSection, Image, Text, Badge, Group, ActionIcon } from '@mantine/core';
-import { IconEyeStar, IconExternalLink } from '@tabler/icons-react';
+import LamaButton from "../../../../../../core/ui/components/button/lama-button";
+import {
+  Card,
+  CardSection,
+  Image,
+  Text,
+  Badge,
+  Group,
+  ActionIcon,
+  Flex,
+} from "@mantine/core";
+import { IconEyeStar, IconExternalLink } from "@tabler/icons-react";
 import classes from "./qoutes.module.css";
 
 interface LlamaCardProps {
@@ -12,37 +20,69 @@ interface LlamaCardProps {
 }
 
 export function LlamaCard({ image, title, description, url }: LlamaCardProps) {
+  const handleCheck = () => {
+    console.log("Register button clicked!");
+  };
+
   return (
-    <Card shadow="sm" padding="lg" radius="md" withBorder className={classes.card}>
+    <Card
+      shadow="sm"
+      padding="lg"
+      radius="md"
+      withBorder
+      className={classes.card}
+    >
       <CardSection className={classes.section}>
         <Image src={image} height={160} alt="Llama" />
       </CardSection>
 
       <CardSection className={classes.section}>
         <Group justify="space-between" mt="md" mb="xs">
-          <Text fw={500} className={classes.title}>{title}</Text>
-          <Badge className={classes.badge} variant="outline" color="pink" radius="md">wewe</Badge>
+          <Text fw={500} className={classes.title}>
+            {title}
+          </Text>
+          <Badge
+            className={classes.badge}
+            variant="outline"
+            color="pink"
+            radius="md"
+          >
+            wewe
+          </Badge>
         </Group>
-        <Text fz="sm" className={classes.title}>{description}</Text>
+        <Text fz="sm" className={classes.title}>
+          {description}
+        </Text>
       </CardSection>
 
       <Group mt="sm">
-        <Button
-          schema={{ type: "link" }}
-          component="a"
-          href={url}
-          target="_blank"
-          leftSection={<IconExternalLink size={16} />}
-          style={{ flex: 1 }}
-          variant="filled"
-          color="black"
-          radius="md"
+        <LamaButton
+          schema={{
+            type: "button",
+            color: "dark",
+            size: "compact-md",
+            variant: "filled",
+            fullWidth: true,
+          }}
+          onClick={handleCheck}
         >
-          Check!
-        </Button>
-        <ActionIcon size={32} variant="filled" color="pink" aria-label="Settings" component="a" href={url} target="_blank">
-          <IconEyeStar size={20} />
-        </ActionIcon>
+          CHECK!
+        </LamaButton>
+
+        {url && (
+          <ActionIcon
+            size={32}
+            variant="filled"
+            color="pink"
+            aria-label="Settings"
+            component="a"
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <IconEyeStar size={20} />
+          </ActionIcon>
+        )}
       </Group>
     </Card>
   );

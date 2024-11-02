@@ -1,8 +1,8 @@
-import { List, ListItem, ThemeIcon, Text } from "@mantine/core"; 
+import { List, ListItem, ThemeIcon, Text } from "@mantine/core";
 import { IconCheck } from "@tabler/icons-react";
-import llamaFacts from "./llama-facts";
+import { LLAMA_FACTS } from "./llama-facts";
 
-const moreInfoList = () => {
+const MoreInfoList = () => {
   return (
     <List
       mt="30"
@@ -14,13 +14,13 @@ const moreInfoList = () => {
         </ThemeIcon>
       }
     >
-      {llamaFacts.map((fact) => (
+      {LLAMA_FACTS.map((fact) => (
         <ListItem key={fact.id}>
-          <Text fw={500}>Llamas</Text> {fact.text} 
+          <Text fw={500}>Llamas</Text> {fact.text}
         </ListItem>
       ))}
     </List>
   );
 };
 
-export default moreInfoList;
+export default MoreInfoList;

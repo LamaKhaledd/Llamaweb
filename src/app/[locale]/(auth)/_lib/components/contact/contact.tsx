@@ -1,12 +1,13 @@
-// Contact.tsx
-import { Container, Title, Text, Group, Card } from "@mantine/core";
-import SocialIcon from '../../../../../../core/ui/components/icon/icon';
+
+import { Title, Text, Group, Card, Flex } from "@mantine/core";
+import SocialIcon from '@core/ui/components/icon/icon';
 import classes from './contact.module.css';
 import { socialIconsData } from '../../constants/social-icons';
 
 export function Contact() {
     return (
-        <Container className={classes.wrapper}>
+        <Flex mih={"120vh"} w={"100%"} pt={"13%"} pb={"7%"} mb={"10%"} align={"center "} direction={"column"}   justify={"space-between"}>
+
             <Card shadow="xl" padding="lg" radius="md" className={classes.card}>
                 
                 <Title order={1}>
@@ -33,6 +34,6 @@ export function Contact() {
                     ))}
                 </Group>
             </Card>
-        </Container>
+        </Flex>
     );
 }
