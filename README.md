@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <h1>GLlama Website 🦙</h1>
+  <h1>Llama Website 🦙</h1>
   <strong>Your Source for Fun and Silly Llama Facts!</strong> &nbsp;<br>
 </div>
 <br>
@@ -20,32 +20,9 @@
 
 <a name="struct"></a>
 ## 📂 Project Structure
->
-> ```sh
-> src/
-├── app/
-│   ├── [locale]\(auth)/
-│   ├── _lib/
-│   │   ├── components/   # Shared components
-│   │   ├── constants/    # Constant values and configurations
-│   │   ├── models/       # Data models
-│   └── test/             # Test files
-├── core/
-│   ├── ui/
-│   │   ├── components/   # UI-specific components
-│   │   ├── constants/    # UI-specific constants
-│   │   ├── models/       # UI data models
-│   │   └── utils/        # Helper functions and utilities
-├── public/               # Static assets like images and fonts
-│   ├── favicon.ico       # Site favicon
-├── styles/
-│   ├── globals.css       # Global styles
-│   ├── HeaderMenu.module.css # Header menu styling
-│   ├── page.module.css   # Page-specific styles
-├── layout.tsx            # Layout component for consistent structure
-├── page.tsx              # Main page component
-
-> ```
+<div align="center">
+  <img src="ProjectStructure.PNG" alt="Description of the image">
+</div>
 <br>
 <br>
 
