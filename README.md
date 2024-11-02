@@ -24,6 +24,12 @@
   <img src="ProjectStructure.PNG" alt="Description of the image">
 </div>
 <br>
+
+### Key files:
+* <strong> app/_lib/: </strong> Contains constants, and models used throughout the app.
+* <strong> core/ui/: </strong> Houses UI-specific elements and utilities, making it easy to customize the appearance.
+* <strong> public/: </strong> Stores static assets, such as icons and images.
+* <strong> styles/: </strong> Includes global and modular styles to manage the look and feel of the app.
 <br>
 
 
